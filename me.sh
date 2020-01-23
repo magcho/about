@@ -16,7 +16,7 @@ echo "subcommands:
 }
 
 Intro(){
-echo -e " |        \033[32mName:\033[m magcho                         |
+echo  " |        \033[32mName:\033[m magcho                         |
  |     \033[034mTwitter:\033[039m https://twitter.com/magcho0527 |
  |        \033[36mMail:\033[m mail@magcho.com                |
  |          \033[31mHP:\033[m https://magcho.com             |"
@@ -31,7 +31,7 @@ else
    EDITOR_MESS="            (Shall we use Emacs?)            |"
 fi
 
-echo -e " |        Blog: https://blog.magcho.com        |
+echo  " |        Blog: https://blog.magcho.com        |
  |      Github: https://github.com/magcho      |
  |         Age: 20                             |
  |      Status: student                        |
