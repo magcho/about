@@ -1,4 +1,17 @@
 #!/bin/bash
+
+# AUTHER: magcho<mail@magcho.com>
+# REPOSITPRY: github.com/magcho/about
+
+# This script is meant for show magcho's self-introduction via:
+#  $ curl -Ls about.magcho.com | sh
+#
+# NOTE: This script has subcommands via:
+#  $ curl -Ls about.magcho.com | sh -s (help|more|tw|hp)
+
+
+
+
 Usage(){
 echo -e "usage: curl -Ls about.magcho.com | sh
    magcho's self-introduction
