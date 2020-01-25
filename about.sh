@@ -1,10 +1,10 @@
 #!/bin/bash
 Usage(){
-echo -e "usage: curl about.magcho.com | sh
+echo -e "usage: curl -Ls about.magcho.com | sh
    magcho's self-introduction
 
    How to execute subcommands
-      Ex.) curl about.magcho.com | sh -s help
+      Ex.) curl -Ls about.magcho.com | sh -s help
    "
 }
 Help(){
