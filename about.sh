@@ -1,6 +1,6 @@
 #!/bin/bash
 Usage(){
-echo "usage: curl about.magcho.com | sh
+echo -e "usage: curl about.magcho.com | sh
    magcho's self-introduction
 
    How to execute subcommands
@@ -16,7 +16,7 @@ echo "subcommands:
 }
 
 Intro(){
-echo  " |        \033[32mName:\033[m magcho                         |
+echo  -e " |        \033[32mName:\033[m magcho                         |
  |     \033[034mTwitter:\033[039m https://twitter.com/magcho0527 |
  |        \033[36mMail:\033[m mail@magcho.com                |
  |          \033[31mHP:\033[m https://magcho.com             |"
