@@ -10,5 +10,8 @@ This script is meant for show magcho's self-introduction.
 
 ```bash
 $ curl -Ls about.magcho.com | sh
+
+# execute sub command
+$ curl -Ls about.magcho.com | sh -s (help|more|tw|hp)
 ```
 

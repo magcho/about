@@ -13,7 +13,7 @@
 
 
 Usage(){
-echo -e "usage: curl -Ls about.magcho.com | sh
+echo  "usage: curl -Ls about.magcho.com | sh
    magcho's self-introduction
 
    How to execute subcommands
@@ -27,9 +27,8 @@ echo "subcommands:
    tw       Visit to magcho's twitter
    hp       Visit to magcho.com"
 }
-
 Intro(){
-echo  -e " |        \033[32mName:\033[m magcho                         |
+echo  " |        \033[32mName:\033[m magcho                         |
  |     \033[034mTwitter:\033[039m https://twitter.com/magcho0527 |
  |        \033[36mMail:\033[m mail@magcho.com                |
  |          \033[31mHP:\033[m https://magcho.com             |"
@@ -52,7 +51,6 @@ echo  " |        Blog: https://blog.magcho.com        |
  | Main editor: Emacs                          |
  |$EDITOR_MESS"
 }
-
 Open(){
    if [ $1 = tw ]; then
       open https://twitter.com/magcho0527
@@ -67,7 +65,6 @@ PrintLine(){
 
 
 subcommand="$1"
-shift
 case $subcommand in
    help)
       Usage
