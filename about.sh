@@ -37,7 +37,7 @@ IntroMore(){
 
 if echo "$EDITOR" | grep 'emacs' > /dev/null; then
    EDITOR_MESS="     (You'er emacser!! Let's be friends!)    |"
-elif echo "$EDITOR" | grep -q 'vim' > /dev/null; then 
+elif echo "$EDITOR" | grep 'vim' > /dev/null; then 
    EDITOR_MESS="   (YOU ARE VIMMER??? SHALL WE USE EMACS?)   |"
 else
    EDITOR_MESS="            (Shall we use Emacs?)            |"
