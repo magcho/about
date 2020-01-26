@@ -35,9 +35,9 @@ echo  " |        \033[32mName:\033[m magcho                         |
 }
 IntroMore(){
 
-if [[ $EDITOR =~ emacs ]] ;then
+if echo "$EDITOR" | grep 'emacs' > /dev/null; then
    EDITOR_MESS="     (You'er emacser!! Let's be friends!)    |"
-elif [[ $EDITOR =~ vim ]] ;then 
+elif echo "$EDITOR" | grep -q 'vim' > /dev/null; then 
    EDITOR_MESS="   (YOU ARE VIMMER??? SHALL WE USE EMACS?)   |"
 else
    EDITOR_MESS="            (Shall we use Emacs?)            |"
@@ -64,8 +64,7 @@ PrintLine(){
 
 
 
-subcommand="$1"
-case $subcommand in
+case $1 in
    help)
       Usage
       Help
