@@ -45,6 +45,7 @@ fi
 
 echo  " |        Blog: https://blog.magcho.com        |
  |      Github: https://github.com/magcho      |
+ |        Name: Suetake Dai                    |
  |         Age: 20                             |
  |      Status: student                        |
  |    Keyboard: Lily58                         |
