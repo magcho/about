@@ -1,0 +1,12 @@
+usage: curl -Ls about.magcho.com | sh
+   magcho's self-introduction
+
+   How to execute subcommands
+      Ex.) curl -Ls about.magcho.com | sh -s help
+   
+ ===============================================
+ |        [32mName:[m magcho                         |
+ |     [034mTwitter:[039m https://twitter.com/magcho0527 |
+ |        [36mMail:[m mail@magcho.com                |
+ |          [31mHP:[m https://magcho.com             |
+ ===============================================
