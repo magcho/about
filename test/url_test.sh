@@ -1,5 +1,6 @@
-#!/bin/bash 
-diff <( curl -Ls about.magcho.com | sh ) $0/success_output.txt
+#!/bin/bash
+cd `dirname $0`
+diff <( curl -Ls about.magcho.com | sh ) ./success_output.txt
 
 if [[ $? == 0 ]]; then
 		exit 0
