@@ -22,4 +22,4 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: valid url test
-      run: ./.ci/url_test.sh
+      run: ./test/url_test.sh
