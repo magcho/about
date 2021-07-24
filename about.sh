@@ -37,7 +37,7 @@ IntroMore(){
 
 if echo "$EDITOR" | grep 'emacs' > /dev/null; then
    EDITOR_MESS="     (You'er emacser!! Let's be friends!)    |"
-elif echo "$EDITOR" | grep 'vim' > /dev/null; then 
+elif echo "$EDITOR" | grep 'vim' > /dev/null; then
    EDITOR_MESS="   (YOU ARE VIMMER??? SHALL WE USE EMACS?)   |"
 else
    EDITOR_MESS="            (Shall we use Emacs?)            |"
@@ -46,7 +46,7 @@ fi
 echo  " |        Blog: https://blog.magcho.com        |
  |      Github: https://github.com/magcho      |
  |        Name: Suetake Dai                    |
- |         Age: 21                             |
+ |         Age: 22                             |
  |      Status: student                        |
  |    Keyboard: Lily58                         |
  | Main editor: Emacs                          |
