@@ -2,7 +2,7 @@ usage: curl -Ls about.magcho.com | sh
    magcho's self-introduction
 
    How to execute subcommands
-      Ex.) curl -Ls about.magcho.com | sh -s help
+      e.g.) curl -Ls about.magcho.com | sh -s help
    
  ===============================================
  |        [32mName:[m magcho                         |
