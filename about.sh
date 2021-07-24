@@ -24,8 +24,9 @@ Help(){
     echo "subcommands:
    help     Display the help message
    more     Display full the magcho's introduction
-   tw       Visit to magcho's twitter
-   hp       Visit to magcho.com"
+   tw       Visit to magcho's Twitter
+   hp       Visit to magcho.com
+   gp       Visit to magcho's GitHub page"
 }
 Intro(){
     echo  " |        \033[32mName:\033[m magcho                         |
@@ -44,7 +45,7 @@ IntroMore(){
     fi
 
     echo  " |        Blog: https://blog.magcho.com        |
- |      Github: https://github.com/magcho      |
+ |      GitHub: https://github.com/magcho      |
  |        Name: Suetake Dai                    |
  |         Age: 22                             |
  |      Status: student                        |
@@ -54,7 +55,7 @@ IntroMore(){
 }
 Open(){
     if [ $1 = tw ]; then
-        echo 'open twitter: https://twitter.com/magcho0527'
+        echo 'open Twitter: https://twitter.com/magcho0527'
         open https://twitter.com/magcho0527
     elif [ $1 = hp ]; then
         echo 'open HP: https://magcho.com'
