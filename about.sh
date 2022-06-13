@@ -47,7 +47,7 @@ IntroMore(){
     echo  " |        Blog: https://blog.magcho.com        |
  |      GitHub: https://github.com/magcho      |
  |        Name: Suetake Dai                    |
- |         Age: 22                             |
+ |         Age: 23                             |
  |      Status: student                        |
  |    Keyboard: Lily58                         |
  | Main editor: Emacs                          |
