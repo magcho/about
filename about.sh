@@ -48,7 +48,7 @@ IntroMore(){
  |      GitHub: https://github.com/magcho      |
  |        Name: Suetake Dai                    |
  |         Age: 23                             |
- |      Status: student                        |
+ |         Job: WebFrontend Engineer           |
  |    Keyboard: Lily58                         |
  | Main editor: Emacs                          |
  |$EDITOR_MESS"
