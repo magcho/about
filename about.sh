@@ -44,10 +44,14 @@ IntroMore(){
         EDITOR_MESS="            (Shall we use Emacs?)            |"
     fi
 
+    BIRTHDAY_DATETIME=927730800 # 1999-05-27
+    A_YEAR_TIME=31557600 # 60*60*24*365.25
+    AGE=$((( $(date +%s) - BIRTHDAY_DATETIME) / A_YEAR_TIME))
+
     echo  " |        Blog: https://blog.magcho.com        |
  |      GitHub: https://github.com/magcho      |
  |        Name: Suetake Dai                    |
- |         Age: 23                             |
+ |         Age: $AGE                             |
  |         Job: WebFrontend Engineer           |
  |    Keyboard: Lily58                         |
  | Main editor: Emacs                          |
